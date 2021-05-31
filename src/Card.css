@@ -1,0 +1,38 @@
+.Blocks{
+  max-width:100%;
+  display:inline-grid; 
+  grid-gap:140px;
+  grid-template-columns: repeat(3, 1fr);
+
+  
+
+}
+
+.Block{
+    width:350px;
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+    box-shadow: 5px 5px 40px #ccc;
+    font-weight:bold;
+    border-radius:10px;
+}
+
+.Block a{
+    font-size:30px;
+    margin-bottom:100px;
+    padding:0px 20px;
+    color:white;
+    text-decoration:none;
+    background:red;
+    border-top-right-radius:25px;
+}
+
+    
+.Block p{
+    display:block;
+    margin-bottom:5px;
+    top:40px;
+}
